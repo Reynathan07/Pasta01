@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="topo">
+            <h1>Eventos Universidade RC</h1>
+            <nav class="nav-topo">
+                <a href="index.html">Inicio</a>
+                <a href="programacao.html">Programação</a>
+                <a href="inscricao.html">Inscrição</a>
+            </nav>
+        </div>
+    </header>
+<main>
+        <section class="form-container">
+            <h2>Inscrição em Evento</h2>
+            <p>Preencha os dados abaixo para simular sua inscrição.</p>
+
+            <form action="#" method="post">
+                <div class="form-grupo">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                </div>
+
+                <div class="form-grupo">
+                    <label for="email">E-mail Acadêmico ou Pessoal:</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                </div>
+
+                <div class="form-grupo">
+                    <label for="curso">Curso:</label>
+                    <input type="text" id="curso" name="curso" placeholder="Ex: Ciência da Computação" required>
+                </div>
+
+                <div class="form-grupo">
+                    <label for="periodo">Período:</label>
+                    <input type="text" id="periodo" name="periodo" placeholder="Ex: 1° periodo " required>
+                       
+                    
+                </div>
+
+                <div class="form-grupo">
+                    <label for="evento">Evento Desejado:</label>
+                    <input type="text" id="evento" name="evento" placeholder="Ex:Evento Desejado" required>
+                </div>
+
+                <div class="form-grupo">
+                    <label>Modalidade:</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="modalidade" value="presencial" checked> Presencial</label>
+                        <label><input type="radio" name="modalidade" value="online"> Online</label>
+                    </div>
+                </div>
+
+                <div class="form-grupo checkbox-group">
+                    <input type="checkbox" id="confirmacao" name="confirmacao" required>
+                    <label for="confirmacao">Confirmo que as informações fornecidas são verdadeiras.</label>
+                </div>
+
+                <button type="submit">Realizar Inscrição</button>
+            </form>
+        </section>
+    </main>
+
+      <footer>
+        <p>Rodape-Eventos RC</p>
+    </footer>
+
+</body>
+</html>
